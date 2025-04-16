@@ -6,7 +6,7 @@ Conjunto de engrenagens personalizável para volantes - Criado para usar com AgO
 
 Projeto paramétrico criado no FreeCAD para gerar engrenagens personalizadas para o volante de um trator.
 
-<img src="assets/gears.png" alt="Gears" height="500"><br>
+<img src="assets/gears.png" alt="Gears" width="500"><br>
 
 Criado usando [Freecad](https://www.freecad.org/downloads.php) 1.0.0 com [freecad.gears workbench](https://github.com/looooo/freecad.gears)
 
@@ -16,7 +16,7 @@ Baixe [`SteerGears.FCStd`](SteerGears.FCStd)
 
 O `VarSet` contém todas as variáveis disponíveis e está localizado no documento do projeto, abaixo dos dois corpos.
 
-<img src="assets/variables.png" alt="Variables" height="300"><br>
+<img src="assets/variables.png" alt="Variables" width="350"><br>
 
 Personalizável:
 
@@ -33,11 +33,17 @@ Variáveis somente leitura - Usadas para cálculos internos e como um resumo das
 - `big_support_length`: Float - Comprimento disponível para suporte na engrenagem grande - Usado para calcular o número de furos possíveis na peça de suporte
 - `gear_ratio`: Float - Relação entre a engrenagem grande e a pequena (grande/pequena)
 
+O número de furos no suporte se adaptará automaticamente com base no comprimento disponível do suporte.
+
+Para fixar a engrenagem pequena em um motor, você precisará usinar um bloco quadrado (16mm x 16mm) que se encaixe no eixo do motor, por exemplo:
+
+<img src="assets/shaft_adapter.png" alt="Shaft adapter" width="280"><br>
+
 ## Exportar
 
 Atualize as configurações de Tesselação para um valor menor do que o padrão do FreeCAD:
 
-<img src="assets/max_deviation.png" alt="Tesselation in FreeCAD" height="400"><br>
+<img src="assets/max_deviation.png" alt="Tesselation in FreeCAD" width="450"><br>
 
 Selecione o corpo do `BigGear`, vá para "Arquivo" e depois para "Exportar". Repita o processo para o `SmallGear`
 
@@ -45,7 +51,7 @@ Selecione o corpo do `BigGear`, vá para "Arquivo" e depois para "Exportar". Rep
 
 Recomendo desativar a recompilação automática:
 
-<img src="assets/skip_recompute.png" alt="Skip recomputes" height="300"><br>
+<img src="assets/skip_recompute.png" alt="Skip recomputes" width="300"><br>
 
 Em seguida, depois de atualizar a engrenagem, use o botão de atualização (🔁) para recalcular
 

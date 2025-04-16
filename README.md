@@ -6,7 +6,7 @@ Customizable gear set for steering wheels - Created for use with AgOpenGPS
 
 Parametric project built in FreeCAD to generate custom gears for tractor for steering wheel.
 
-<img src="assets/gears.png" alt="Gears" height="500"><br>
+<img src="assets/gears.png" alt="Gears" width="500"><br>
 
 Created using [Freecad](https://www.freecad.org/downloads.php) 1.0.0 with [freecad.gears workbench](https://github.com/looooo/freecad.gears)
 
@@ -16,7 +16,7 @@ Download [`SteerGears.FCStd`](SteerGears.FCStd)
 
 The `VarSet` contains all the available variables, it is located in the project document, below both bodies.
 
-<img src="assets/variables.png" alt="Variables" height="300"><br>
+<img src="assets/variables.png" alt="Variables" width="350"><br>
 
 Customizable:
 
@@ -35,11 +35,15 @@ Read only variables - Used for internal computation and as a summary of the gear
 
 The number of holes in the support will adapt automatically based on the available support length.
 
+To attach the small gear on a motor, you'll need to machine a square block (16mm x 16mm) that fits in your motor shaft, for example:
+
+<img src="assets/shaft_adapter.png" alt="Shaft adapter" width="280"><br>
+
 ## Export
 
 Update the Tesselation settings to a smaller value than the FreeCAD default:
 
-<img src="assets/max_deviation.png" alt="Tesselation in FreeCAD" height="400"><br>
+<img src="assets/max_deviation.png" alt="Tesselation in FreeCAD" width="450"><br>
 
 Select the `BigGear` body, go to "File" and then "Export". Repeat the process for the `SmallGear`
 
@@ -47,7 +51,7 @@ Select the `BigGear` body, go to "File" and then "Export". Repeat the process fo
 
 I recommend disabling automatic recompilation:
 
-<img src="assets/skip_recompute.png" alt="Skip recomputes" height="300"><br>
+<img src="assets/skip_recompute.png" alt="Skip recomputes" width="300"><br>
 
 Then, after a gear parameter change, use the refresh button (🔁) to recompute
 
