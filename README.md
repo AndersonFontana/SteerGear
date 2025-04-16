@@ -16,6 +16,8 @@ Download [`SteerGears.FCStd`](SteerGears.FCStd)
 
 The `VarSet` contains all the available variables, it is located in the project document, below both bodies.
 
+<img src="assets/variables.png" alt="Variables" height="300"><br>
+
 Customizable:
 
 - `big_teeth_count`: Integer - Number of teeth of the big gear - tested in the 30-60 range

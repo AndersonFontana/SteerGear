@@ -16,6 +16,8 @@ Baixe [`SteerGears.FCStd`](SteerGears.FCStd)
 
 O `VarSet` contém todas as variáveis disponíveis e está localizado no documento do projeto, abaixo dos dois corpos.
 
+<img src="assets/variables.png" alt="Variables" height="300"><br>
+
 Personalizável:
 
 - `big_teeth_count`: Inteiro - Número de dentes da engrenagem grande - testado na faixa de 30 a 60
