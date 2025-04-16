@@ -1,6 +1,6 @@
 # SteerGear
 
-[English](Readme.md) | Português
+[English](README.md) | Português
 
 Conjunto de engrenagens personalizável para volantes - Criado para usar com AgOpenGPS
 
